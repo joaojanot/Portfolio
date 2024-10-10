@@ -4,22 +4,48 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./styles/style.css">
 </head>
 <body>
-    <header></header>
+    <header class="cabecalho">
+        <nav class="cabecalho__menu">
+            <a class="cabecalho__menu__ativo">Home</a>
+            <a class="cabecalho__menu__inativo" href="about.html">About Me</a>
+        </nav>
+    </header>
     <main>
-        <img src="image.png" width="200px" height="200px">
         <section class="main__bio">
-            <h1 class="main__bio__titulo">@joaojanot</h1>
-            <p class="main__bio__subtitulo">Designer</p>
+            <img class="main__bio__imagem" src="./assets/image.png" alt="Foto de perfil de Joao Janot">
+            <div class="main__bio__titulos">
+                <h1 class="main__bio__titulos__titulo">@joaojanot</h1>
+                <p class="main__bio__titulos__subtitulo">Designer</p>
+            </div>
+            <div class="main__bio__links">
+                <a href="https://www.linkedin.com/in/jo%C3%A3o-victor-janot/" class="main__bio__links__botao">
+                    <img src="./assets/linkedin.png" alt="Logo LinkedIn">
+                    LinkedIn 
+                </a>
+                <a href="https://github.com/joaojanot"class="main__bio__links__botao">
+                    <img src="./assets/github.png" alt="Logo github">
+                    Github
+                </a>
+                <a href="https://www.instagram.com/joao.janot/"class="main__bio__links__botao">
+                    <img src="./assets/instagram.png" alt="Logo Instagram">
+                    Instagram
+                </a>
+            </div>
         </section>
-        <section class="main__links">
-            <a href="https://www.linkedin.com/in/jo%C3%A3o-victor-janot/" class="main__links__botao">LinkedIn</a>
-            <a href="https://joaovjanot.myportfolio.com/"class="main__links__botao">Portfólio</a>
-            <a href="https://www.instagram.com/joao.janot/"class="main__links__botao">Instagram</a>
+        <section class="main__projetos">
+            <a class="main__projetos__projeto"></a>
+            <a class="main__projetos__projeto"></a>
+            <a class="main__projetos__projeto"></a>
+            <a class="main__projetos__projeto"></a>
+            <a class="main__projetos__projeto"></a>
+            <a class="main__projetos__projeto"></a>
         </section>
     </main>
-    <footer></footer>
+    <footer class="rodape">
+        <p>Developed by João Janot</p>
+    </footer>
 </body>
 </html>
